@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience Now Alex is here!
+title: Helping your business build the future.
 image: /img/wearekick.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: What we can do for You
+subheading: We Build integrated E-commerce Websites for the Merchant Sector
 mainpitch:
   title: Why Kaldi
   description: >
