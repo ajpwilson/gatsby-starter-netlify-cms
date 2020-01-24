@@ -1,7 +1,82 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import logo from '../img/logo.png'
+
+import styled from 'styled-components'
+
+const NavBar = styled.nav`
+  box-shadow: none;
+  background-color: #111;
+  position: fixed;
+  width: 100%;
+`
+const Container = styled.div`
+  max-width: 1210px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+`
+const NavMenu = styled.div`
+  box-shadow: none;
+`
+const Logo = styled.div`
+  margin: 0 auto;
+  width: 80px;
+`
+const NavbarStart = styled.div`
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10px auto;
+`
+const StyledLink = styled(props => <Link {...props} />)`
+  flex: 0 1 auto;
+  color: #fff;
+  position: relative;
+  text-align: center;
+
+  &:hover {
+    color: #fff;
+  }
+
+  &:before, &:after {
+    position: absolute;
+    top: 0;
+    width: 15px;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+  }
+
+  &:before {
+    text-align: right;
+    padding: 0 4px 0 0;
+    left: -14px;
+    content: '<';
+    transform: translateX(10px);
+  }
+
+  &:after {
+    text-align: left;
+    padding: 0 0 0 3px;
+    left: 100%;
+    content: '/>';
+    transform: translateX(-10px);
+  }
+
+  &:hover:before, &:focus:before {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+
+  &:hover:after, &:focus:after {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+`
+
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -34,16 +109,17 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
-      <nav
-        className="navbar is-transparent"
+      <NavBar
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container">
+        <Container>
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-            </Link>
+            <Logo>
+              <Link to="/" title="Logo">
+                <img src={logo} alt="We Are Kick" />
+              </Link>
+            </Logo>
             {/* Hamburger menu */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
@@ -55,42 +131,30 @@ const Navbar = class extends React.Component {
               <span />
             </div>
           </div>
-          <div
+          <NavMenu
             id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
+            className={`${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
+            <NavbarStart>
+              <StyledLink to="/about">
                 About
-              </Link>
-              <Link className="navbar-item" to="/products">
-                Products
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                Blog
-              </Link>
-              <Link className="navbar-item" to="/contact">
+              </StyledLink>
+              <StyledLink to="/products">
+                Our Work
+              </StyledLink>
+              <StyledLink to="/blog">
+                What We Do
+              </StyledLink>
+              <StyledLink to="/contact/examples">
+                Start a Project
+              </StyledLink>
+              <StyledLink to="/contact">
                 Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
+              </StyledLink>
+            </NavbarStart>
+          </NavMenu>
+        </Container>
+      </NavBar>
     )
   }
 }

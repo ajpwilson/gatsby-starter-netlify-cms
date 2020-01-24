@@ -35,6 +35,7 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          "gatsby-remark-bracketed-spans",
           {
             resolve: 'gatsby-remark-relative-images',
             options: {
