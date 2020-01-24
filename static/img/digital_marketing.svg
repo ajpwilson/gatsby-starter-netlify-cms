@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="90px" height="90px" viewBox="0 0 90 90" enable-background="new 0 0 90 90" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<path fill="none" stroke="#006EB5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M68.844,19.156c-8.207-8.209-21.512-8.209-29.723,0c-6.984,6.984-8.021,17.66-3.117,25.744L17.365,63.543
+				c-0.602,0.6-0.434,1.818,0.312,3.139c-0.605,1.023-0.477,2.357,0.402,3.238c0.879,0.877,2.215,1.006,3.236,0.402
+				c1.322,0.746,2.539,0.914,3.143,0.314L43.1,51.994c8.086,4.904,18.76,3.869,25.744-3.115
+				C77.053,40.67,77.053,27.363,68.844,19.156z M65.098,45.131c-6.137,6.139-16.09,6.139-22.229,0
+				c-6.141-6.137-6.141-16.092,0-22.229c6.139-6.137,16.092-6.137,22.229,0C71.24,29.041,71.236,38.994,65.098,45.131z"/>
+			<g>
+				
+					<path fill="none" stroke="#006EB5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+					M55.824,35.605"/>
+			</g>
+		</g>
+	</g>
+	
+		<polyline fill="none" stroke="#006EB5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		39.705,40.346 47.24,38.885 57.293,30.125 59.934,27.377 67.787,26.783 	"/>
+	
+		<circle fill="none" stroke="#006EB5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="47.239" cy="38.885" r="1.644"/>
+	
+		<circle fill="none" stroke="#006EB5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="53.54" cy="33.313" r="1.644"/>
+	
+		<circle fill="none" stroke="#006EB5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="59.934" cy="27.377" r="1.645"/>
+</g>
+<g>
+	<path fill="#006EB5" d="M45,4c22.607,0,41,18.393,41,41S67.607,86,45,86S4,67.607,4,45S22.393,4,45,4 M45,0C20.147,0,0,20.146,0,45
+		s20.147,45,45,45c24.853,0,45-20.146,45-45S69.853,0,45,0L45,0z"/>
+</g>
+</svg>
