@@ -23,12 +23,12 @@ intro:
         We put the strategy into great web design. Without a considered digital
         marketing plan designed around your goals your website has less value.
       title: Digital Marketing
-      image: /img/digital_marketing.svg
+      image: /img/digital_marketing.png
     - text: >-
         Carefully considered cross platform apps for desktop, tablet and mobile.
         We build apps that provide engaging, memorable user experiences.
       title: Application Development
-      image: /img/application_dev.svg
+      image: /img/application_dev.png
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
