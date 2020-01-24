@@ -18,7 +18,7 @@ intro:
         bespoke to their audience, products, services, brand and future
         strategy.
       title: Bespoke Website Design
-      image: /img/bespoke_websites.svg
+      image: /img/bespoke_websites.png
     - text: >-
         We put the strategy into great web design. Without a considered digital
         marketing plan designed around your goals your website has less value.
