@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: 'Helping [your] business build the future.'
+title: Helping your business build the future.
 image: /img/wearekick.jpg
 heading: What we can do for You
 subheading: We Build integrated E-commerce Websites for the Merchant Sector
